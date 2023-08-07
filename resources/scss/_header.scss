@@ -1,0 +1,40 @@
+@use "vars" as *;
+
+header {
+    padding: 10px 0;
+
+    figure img{
+        height: 80px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 50px;
+
+        li {
+            font-weight: bold;
+
+            a {
+                font-size: 14px;
+                padding: 40px 15px;
+                &:hover,
+                &.active {
+                    border-bottom: 4px solid $bg-primary;
+                    color: $bg-primary;
+                }
+            }
+        }
+    }
+
+    .searchbar input {
+        position: relative;
+        border: none;
+        border-bottom: 3px solid $bg-primary;
+        text-align: justify;
+        &:focus {
+            outline: none;
+        }
+    }
+}
