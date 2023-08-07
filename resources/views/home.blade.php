@@ -15,6 +15,8 @@
 <body>
     {{-- HEADER --}}
     @include('components/header')
+    {{-- HERO --}}
+    @include('components/hero')
 </body>
 
 </html>
