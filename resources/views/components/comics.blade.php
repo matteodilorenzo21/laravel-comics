@@ -8,6 +8,12 @@ $comics = config('comics');
 
     <div class="container">
 
+        <div class="series-label">
+
+            <h2>current series</h2>
+
+        </div>
+
         <div class="row">
 
             @foreach ($comics as $comic)
@@ -23,6 +29,11 @@ $comics = config('comics');
 
         </div>
 
+        <div class="btn-container">
+
+            <button>load more</button>
+
+        </div>
 
     </div>
 

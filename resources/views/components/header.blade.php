@@ -1,4 +1,17 @@
 <header>
+
+    <div class="stripe">
+
+        <div class="container">
+
+            <a href="#">dc power visa©</a>
+
+            <a href="#">dc additional sites</a>
+
+        </div>
+
+    </div>
+
     <div class="container d-flex">
 
         <figure>
