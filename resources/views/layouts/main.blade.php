@@ -7,7 +7,7 @@
     {{-- FONTAWESOME --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>{{ env('APP_NAME') }} | @yield('title')</title>
-    <link rel="icon" href="{{ Vite::asset('resources/img/favicon.ico') }}" type="image/ico">
+    <link rel="icon" href="{{ Vite::asset('public/images/favicon.ico') }}" type="image/ico">
 
     @vite('resources/js/app.js')
 </head>
@@ -22,6 +22,9 @@
     <main>
         @yield('main-content')
     </main>
+
+    {{-- PROVIDERS --}}
+    @include('components/providers')
 </body>
 
 </html>

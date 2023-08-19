@@ -38,10 +38,11 @@ h2, button {
     border-radius: 5px;
     text-transform: uppercase;
     color: $white;
-    transition: color 0.4s ease;
+    transition: color 0.4s ease, transform 0.4s ease;
 
     &:hover {
         color: $bg-primary;
+        transform: translateY(-2%);
     }
 }
 

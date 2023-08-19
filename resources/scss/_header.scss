@@ -10,7 +10,7 @@ header {
 
     figure img{
         height: 80px;
-        filter: saturate(90%);
+        filter: saturate(40%);
         transition: filter 0.4s ease;
 
         &:hover {
