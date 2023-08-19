@@ -1,0 +1,33 @@
+@use "vars" as *;
+
+section {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+
+.col {
+    position: relative;
+    width: calc(100% / 6);
+    padding: 0 15px;
+}
+
+
+.card {
+    padding: 15px;
+    margin-bottom: 20px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card img {
+    min-height: 250px;
+    object-fit: cover;
+}
