@@ -29,10 +29,8 @@ footer {
 }
 
 .lower-footer {
-    height: 75px;
-    background-color: $bg-secondary;
-    display: flex;
-    justify-content: space-between;
+    background-color: $bg-tertiary;
+    padding: 10px 0;
 }
 
 .footer-btn {
@@ -41,7 +39,7 @@ footer {
     padding-top: 17px;
     font-size: 16px;
     font-weight: bold;
-    background-color: $bg-secondary;
+    background-color: transparent;
     border: 2px solid $bg-primary;
     color: white;
     cursor: pointer;
@@ -54,9 +52,18 @@ footer {
     }
 }
 
-.space-between {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+h4 {
+    color: $bg-primary;
+    margin-right: 20px;
+}
+
+.social-ref img {
+    height: 30px;
+    margin-inline: 8px;
+    transition: filter 0.3s ease;
+
+    &:hover {
+        filter: brightness(200%);
+    }
 }
 
