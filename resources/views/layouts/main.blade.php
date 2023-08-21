@@ -21,10 +21,13 @@
     {{-- MAIN --}}
     <main>
         @yield('main-content')
+
+        {{-- PROVIDERS --}}
+        @include('components/providers')
     </main>
 
-    {{-- PROVIDERS --}}
-    @include('components/providers')
+    @include('components/footer')
+
 </body>
 
 </html>
