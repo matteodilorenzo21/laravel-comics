@@ -4,7 +4,7 @@
 
         <div class="row">
 
-            <div class="col">
+            <div class="footer-col">
 
                 <ul>
                     <h4>DC COMICS</h4>
@@ -25,7 +25,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="footer-col">
 
                 <ul>
                     <h4>DC</h4>
@@ -44,7 +44,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="footer-col">
 
                 <ul>
                     <h4>SITES</h4>
@@ -73,11 +73,12 @@
 
             <h4>FOLLOW US</h4>
 
-            <a href="#"><img src="images/footer-facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="images/footer-twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="images/footer-youtube.png" alt="Youtube"></a>
-            <a href="#"><img src="images/footer-pinterest.png" alt="Pinterest"></a>
-            <a href="#"><img src="images/footer-periscope.png" alt="Periscope"></a>
+            <a href="#"><img src="{{ asset('images/footer-facebook.png') }}" alt="Facebook"></a>
+            <a href="#"><img src="{{ asset('images/footer-twitter.png') }}" alt="Twitter"></a>
+            <a href="#"><img src="{{ asset('images/footer-youtube.png') }}" alt="Youtube"></a>
+            <a href="#"><img src="{{ asset('images/footer-pinterest.png') }}" alt="Pinterest"></a>
+            <a href="#"><img src="{{ asset('images/footer-periscope.png') }}" alt="Periscope"></a>
+
 
         </div>
 

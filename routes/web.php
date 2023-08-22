@@ -28,6 +28,14 @@ Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
 
+// SINGLE COMIC
+Route::get('/comic/{index}', function ($index) {
+    $comics = config('comics');
+    $comic = $comics[$index];
+
+    return view('comic', compact('comic'));
+})->name('comic');
+
 // MOVIES
 Route::get('/movies', function () {
     return view('movies');

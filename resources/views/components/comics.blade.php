@@ -14,16 +14,18 @@ $comics = config('comics');
 
         </div>
 
-        <div class="row">
+        <div class="row" id="comics-list">
 
             @foreach ($comics as $comic)
-                <div class="col">
-                    <div class="card">
-                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ $comic['title'] }}</h5>
+                <div class="column">
+                    <a href="{{ url("/comic/$loop->index") }}">
+                        <div class="card">
+                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $comic['title'] }}</h5>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             @endforeach
 
